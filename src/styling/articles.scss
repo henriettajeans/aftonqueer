@@ -1,0 +1,25 @@
+.articles{
+    width: 400px;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgba(255, 244, 215, 0.783);
+    border-radius: 20px;
+
+    &__title{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.8em;
+    }
+    &__text{
+        text-align: left;
+    }
+    &__byline{
+        text-align: end;
+    }
+}
+.article__ctn{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blanchedalmond;
+}

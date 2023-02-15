@@ -1,0 +1,25 @@
+.header__section{
+    width: 100%;
+    display: flex;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+    align-items: last baseline;
+
+    &__title{
+        font-size: 6em;
+        padding-left: 20%;
+    }
+    &__info{
+        flex-direction: column;
+        border: 1px solid grey;
+        color: grey;
+        text-align: right;
+    
+        &__est{
+        }
+        &__dir{
+
+        }
+}
+}
