@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { INews } from "../models/INews";
-import { getNews } from "../services/newsApi";
+//import { getNews } from "../services/newsApi";
 
 export const NewsLoading = () =>{
 
@@ -9,7 +9,7 @@ export const NewsLoading = () =>{
   
     const showNews = async () =>{
   
-     let  newsFromApi =  await getNews();
+     //let  newsFromApi =  await getNews();
   
     setNews([{ title: "ABC", description: "ABC", published:"abc", author:"hanapee"}]);
     
