@@ -1,5 +1,5 @@
-import axios from "axios";
-import { INews } from "../models/INews";
+// import axios from "axios";
+// import { INews } from "../models/INews";
 
 const CurrentsAPI = require('currentsapi');
 //import { CurrentsAPI } from 'currentsapi';
